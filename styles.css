@@ -1,0 +1,85 @@
+body {
+    background-color: grey;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: black;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Homepage Styling */
+header {
+    background-color: lightgreen;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main p {
+    color: gray;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* About Me Page */
+h1 {
+    color: blue;
+}
+
+main p:first-of-type {
+    color: black;
+    font-size: 16px;
+}
+
+main p:last-of-type {
+    color: black;
+    font-size: 16px;
+}
+
+/* Contact Me Page */
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+label {
+    color: black;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightgreen;
+}
